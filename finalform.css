@@ -1,0 +1,21 @@
+h2{   
+    text-align: center;
+    color: rgb(170, 173, 176);
+    background-color: rgb(241, 241, 241);
+    margin: 10px 10px 10px 10px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+form{
+    text-align: center;
+    text-align-last:auto;
+    color: black;
+    background-color: rgb(163, 159, 155) ;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+body{
+    background-color: rgb(145, 141, 141);
+}

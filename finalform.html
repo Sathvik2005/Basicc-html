@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="finalform.css">
+    <style>
+        #bodycolor{
+            background-color: rgb(255, 255, 255);
+            border: 10px;
+            background-image:url(background.jpg);
+            background-size: cover;
+        }
+
+        #formcolor{
+            background-color: rgba(137, 141, 144, 0.61);
+            height: 350px;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+
+        }
+        #name{
+            background-color: rgb(255, 255, 255);
+            border: 70px;
+            height: 20px;
+            border-radius:5px;
+            border-color: black;
+            align-content: center;
+        }
+        #rollno{
+            border: 20px;
+            border-radius: 5px;
+            height: 20px;
+        }
+        #rollnoposition{
+            padding: 7px;
+        }
+        #dateofbirth{
+            border: 20px;
+            border-radius: 5px;
+            height: 25px;
+        }
+        #section{
+            border: 30px;
+            border-radius: 7px;
+            height: 25px;
+        }
+        #myemail{
+            border: 30px;
+            border-radius: 5px;
+            background-color: rgb(248, 248, 248);
+            height: 20px;
+        }
+        #submit{
+            border: 30px;
+            border-radius: 5px;
+        }
+        #clear{
+            border: 30px;
+            border-radius: 5px;
+        }
+        #nameposition{
+            padding: 24px;
+        }
+        #dobposition{
+            padding: 5px;
+        }
+        #emailposition{
+            padding: 34 px;
+        }
+        #branch{
+            border: 5px;
+            border-radius: 5px;
+        }
+
+
+
+    </style>
+</head>
+<body id="bodycolor">
+    <div>
+        <h2>FILL THIS FORM</h2>
+    <form action="a"id="formcolor">
+        <br><div>
+        <center>
+        <label for="name"id="nameposition">Name</label>
+            <input type="text"id="name">
+        </center>
+        </div><br>
+        
+        <div>
+            <center>
+            <label for="dateofbirth"id="dobposition">DOB:</label>
+            <input type="date"id="dateofbirth">
+            </center>
+        </div><br>
+        <div> 
+            <strong>Gender</strong>
+            <br><label for="male"><strong>Male</strong></label>
+            <input type="radio"id="male"name="gender">
+            <label for="female"><strong>Female</strong></label> 
+            <input type="radio"id="female"name="gender">
+            <label for="gay"><strong>Prefer not to say</strong></label> 
+            <input type="radio"id="gay"name="gender">
+        
+        </div><br>
+        <div>
+            <center>
+            <label for="rollno"id="rollnoposition">Roll Number:</label>
+            <input type="text"id="rollno">
+            </center>
+        </div><br>
+        <div>
+            <label for="branch"id="branchposition">Branch</label>
+            <select name="branch" id="branch">
+                <option value="CSE">CSE</option>
+                <option value="CSE(AIML)">CSE(AIML)</option>
+                <option value="CSC">CSC</option>
+                <option value="">CSD</option>
+                <option value="CSIT">CSIT</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="section">Section:</label>
+            <select name="Section" id="section">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="email"id="emailposition">Email:</label>
+            <input type="email" name="Email" id="myemail">
+        </div><br>
+        <div>
+            <input type="submit" value="submit"id="submit">     <input type="reset" value="clear"id="clear">
+        </div><br>
+    </form>    
+</body>
+</div>
+</html>
